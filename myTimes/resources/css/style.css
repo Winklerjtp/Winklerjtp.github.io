@@ -14,18 +14,109 @@ header {
 }
 
 .logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  padding-left: 30px;
+}
+
+.logo img {
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+}
+
+.logo span{
   color: MediumAquamarine;
 }
 
-nav {
-  align-items: flex-end;
+header nav {
+  padding-right: 40px;
 }
 
 nav span {
   display: inline-block;
-  color: black;
+  padding: 20px 10px;
 }
 
 a {
   color: black;
+}
+/* Main content style*/
+
+div {
+  border: 1px solid black;
+  display: block;
+}
+
+.container {
+  display: flex;
+  width: 1232px;
+  margin: 0 auto 78px auto;
+  padding-top: 116px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 32px;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
+
+.lead-story .image-content {
+  background-image: url('../images/img-story-main.png');
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  text-align: left;;
+}
+
+.fall-cancelled.image-content {
+  background-image: url('../images/img-story-2.png');
+}
+
+.pop-culture.image-content {
+  background-image: url('../images/img-story-3.png');
+}
+
+.fall-cancelled span {
+  text-align: center;
+}
+
+.pop-culture span {
+  text-align: center;
+}
+
+.image-content {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  margin-top: 15px;
+  font-size: 30px;
+  font-family: Georgia;
+  font-weight: bold;
+  color: white;
+}
+
+
+
+p {
+  display: block;
+}
+
+h2 {
+  display: block;
+  font-size: 1.5em;
+  font-weight: bold;
 }
