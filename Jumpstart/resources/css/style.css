@@ -1,0 +1,156 @@
+/* Shared content styling */
+
+html {
+  font-size: 14px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.4;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: #399bd1;
+}
+
+h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+img {
+  width: 100%;
+}
+
+.image-container {
+  overflow: hidden;
+}
+
+.image-container img {
+  opacity: 0.7;
+  transition: transform .5s, opacity .5s;
+}
+
+.image-container img:hover {
+  opacity: 1;
+  transform: scale(1.3);
+}
+/* Nav content styling*/
+.navbar {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+  /* override bootstrap styling */
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover {
+  color: #399bd1;
+  background-color: inherit;
+}
+
+
+/* Jumbotron content styling */
+.jumbotron {
+  height: 44rem;
+  padding-top: 10rem;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.jumbotron h1 {
+  font-family: "Monoton", sans-serif;
+  font-size: 7.1rem;
+}
+
+.jumbotron p {
+  max-width: 51.3rem;
+  margin: auto;
+}
+
+.background-bike {
+  background-image: url('../images/jumbotron-bike.jpg');
+}
+
+.background-beer {
+  background-image: url('../images/jumbotron-beer.jpg');
+}
+
+.background-flowers {
+  background-image: url('../images/jumbotron-flowers.jpg');
+}
+
+.background-duffel {
+  background-image: url('../images/jumbotron-duffel.jpg');
+}
+
+.relative-wrapper {
+  position: relative;
+  top: -16rem;
+  width: 100%;
+  text-align: center;
+}
+
+/* Featured project content styling */
+.feature-project {
+  margin-top: -7rem;
+}
+
+.feature-project .image-container {
+  height: 19rem;
+  margin-top: 20px;
+}
+
+.categories h3 {
+  color: #399bd1;
+}
+
+.categories ul {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/* Projects content styling*/
+.project {
+  margin-bottom: 5.85rem;
+}
+
+.project .image-container {
+  height: 13.5rem;
+  overflow: hidden;
+}
+
+/* Help content styling */
+.help {
+  padding: 5.2rem 0;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+
+.help strong {
+  display: inline-block;
+  margin-bottom: 1.4rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.help p {
+  max-width: 42rem;
+  margin: auto;
+}
+
+.btn-primary {
+  width: 160px;
+  padding: 1.3rem 0;
+  border: 0;
+  margin-top: 2.8rem;
+  background-color: #399bd1;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+  transition: .5s box-shadow;
+}
+
+/* Media queries */
